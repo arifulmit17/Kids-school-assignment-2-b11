@@ -33,11 +33,16 @@
     font-family: "quicksand";
     
 }
+
+.text-medium{
+    font-family: "quicksand";
+    font-weight: 700;
+}
 /* navbar styles */
 #navbar{
     /* border: 2px solid red; */
     /* width: 1360px; */
-    width: 100%;
+    width: 100vw;
     height: auto;
     padding: 20px 0;
     
@@ -365,9 +370,7 @@
     display: none;
 }
 
-.nav-text{
-    display: block;
-}
+
 /* banner-style */
 .banner-container{
     width: 90%;
@@ -413,7 +416,7 @@
     flex-direction: column;
 }
 .card{
-    width: 90%;
+    width: 95%;
     height: 320px;
     padding: 35px;
 }
@@ -440,8 +443,64 @@
 .buttons{
     display: none;
 }
-
-#stories{
-display: none;
+/* stories section style */
+.stories-container,
+.story-card-container{
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto;
+    
 }
+.story-card-container{
+    width: 95%;
+    margin: 0 auto;
+    
+    
+}
+
+.first-card{
+    display: none;
+}
+.other-cards{
+    width: 100%;
+    height: auto;
+    gap: 10px;
+}
+.story-card-2,
+.story-card-3,
+.story-card-4,
+.story-card-5
+{
+    width: 100%;
+    height: auto;
+}
+.story-img{
+    width: 100%;
+    height: auto;
+}
+.text-grid,
+.date{
+    font-size: 9px;
+}
+.date-box{
+    width: 100px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+.btn3{
+    width: 130px;
+    height: 30px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+}
+@media screen and (min-width:425px) and (max-width:992px) {
+    /* stories section */
+    .other-cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+   
+    
 }
