@@ -243,6 +243,7 @@
 }
 
 .stories-title{
+    font-size: 3rem;
     align-items: center;
 }
 .story-card-container{
@@ -397,7 +398,6 @@
     filter:hue-rotate(120deg);
     width: 90px;
     height: 90px;
-    border: 2px solid blue;
 }
 .footer-logo{
     display: flex;
@@ -432,7 +432,7 @@
 }
 
 
-/* banner-style */
+/* banner-style responsive */
 .banner-container{
     width: 88%;
     height: auto;
@@ -462,6 +462,10 @@
 }
 .banner-description{
     font-size: 14px;
+    font-weight: 500;
+}
+.btn2{
+    font-weight: 700;
 }
 
 /* curriculum section */
@@ -491,7 +495,7 @@
     height: 100%;
 }
 .card-tag{
-    font-size: 16px;
+    font-size: 17px;
 }
 .card-description{
     width: 70%;
@@ -505,13 +509,16 @@
 .buttons{
     display: none;
 }
-/* stories section style */
+/* stories section responsive */
 .stories-container,
 .story-card-container{
     flex-direction: column;
     height: auto;
     margin: 0 auto;
     
+}
+.stories-title{
+    font-size: 1.5rem;
 }
 .story-card-container{
     width: 95%;
@@ -556,6 +563,7 @@
     border-radius: 12px;
     font-size: 16px;
 }
+/* footer responsive */
 .footer-container{
     width: 100%;
     height: auto;
@@ -565,10 +573,42 @@
     height: auto;
     margin: 20px;
     flex-direction: column;
+    gap: 30px;
 }
 .footer-logo-text-description{
     width: 100%;
     height: auto;
+    /* border: 2px solid blue; */
+    gap: 30px;
+}
+.footer-tag{
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-description{
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer-img{
+    width: 70px;
+    height: 70px;
+}
+.about-tag{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-keep-touch{
+    gap: 30px;
+}
+.about-menu>li>a{
+    font-size: 17px;
+    font-weight: 500;
+}
+.touch{
+    font-size: 22px;
+    font-weight: 700;
 }
 }
 @media screen and (min-width:425px) and (max-width:992px) {
