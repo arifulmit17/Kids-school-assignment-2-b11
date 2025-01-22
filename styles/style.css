@@ -484,7 +484,7 @@
 .curriculum-container{
     flex-direction: column;
     gap: 20px;
-    padding: 40px;
+    padding: 20px;
 }
 .section-title{
    font-size: 26px;
@@ -522,6 +522,7 @@
     display: none;
 }
 /* stories section responsive */
+
 .stories-container,
 .story-card-container{
     flex-direction: column;
@@ -535,8 +536,6 @@
 .story-card-container{
     width: 95%;
     margin: 0 auto;
-    
-    
 }
 
 .first-card{
